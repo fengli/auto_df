@@ -1,6 +1,6 @@
 LIB_WSTREAM = libworkstream_df
 LIB_DIR = $(LIB_WSTREAM)
-CFLAGS = -Wall -std=c99 -O3 -ffast-math -g
+CFLAGS = -Wall -std=c99 -O3 -ffast-math -g -D_DEBUG
 LDFLAGS = -L$(LIB_DIR) -lm -rdynamic -Wl,-rpath,$(LIB_DIR) -lwstream_df
 
 TESTS = main df_main
