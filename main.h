@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stddef.h>
 
-#define N 2
+#define N 1
 
 void dfs_tdecrease (size_t frame_id);
 void dfs_tend ();
